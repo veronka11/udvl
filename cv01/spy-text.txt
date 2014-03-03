@@ -1,0 +1,65 @@
+c (EG & MG & SR) v (EG & MR & SG) v (ER & MG & SG)
+C EG MG SG
+c ER MR SR
+c ES MS SS
+
+
+EG EG ER 0
+EG EG MG 0
+EG EG SG 0
+
+EG MR ER 0
+EG MR MG 0
+EG MR SG 0
+
+EG SG ER 0
+EG SG MG 0
+EG SG SG 0
+
+
+
+MG EG ER 0
+MG EG MG 0
+MG EG SG 0
+
+MG MR ER 0
+MG MR MG 0
+MG MR SG 0
+
+MG SG ER 0
+MG SG MG 0
+MG SG SG 0
+
+
+
+SR EG ER 0
+SR EG MG 0
+SR EG SG 0
+
+SR MR ER 0
+SR MR MG 0
+SR MR SG 0
+
+SR SG ER 0
+SR SG MG 0
+SR SG SG 0
+
+
+c koniec '2 nemci 1 rus'
+
+c 'muller je taky nemec ako stirlitz rus'
+-MG SR 0
+-SR MG 0
+
+c  rus je s[pion]
+-ER ES 0
+-MR MS 0
+-SR SS 0
+
+c nemec nie rus a naopak
+-EG -ER 0
+ER EG 0
+-MG -MR 0
+MR MG 0
+-SG -SR 0
+SG SR 0
